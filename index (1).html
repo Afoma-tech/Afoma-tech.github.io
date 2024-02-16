@@ -112,7 +112,7 @@
 
     <main>
       <article>
-        <!-- insert iframe from youtube -->
+        
         <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg" title="Youtube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-right; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <h2>Rocking the free web</h2>
@@ -123,7 +123,7 @@
       </article>
 
       <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
+        
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img src="firefox_logo-only_RGB-120.png" alt="Download Mozilla Firefox" srcset="firefox_logo-only_RGB-120.png 120w, firefox_logo-only_RGB-400.png 400w" sizes="(max-width: 500px) 120px, 400px">
         </a>
@@ -140,7 +140,11 @@
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 600px)" srcset="red-panda-600-cropped.jpg">
+          <img src="red-panda-1200.jpg" alt="A Red Panda">
+        </picture>
+       
       </div>
 
     </main>
