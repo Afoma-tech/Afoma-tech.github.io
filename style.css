@@ -11,5 +11,9 @@ div{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 1.0620rem;
+    background-color: hotpink;
+    color: blueviolet;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
   
