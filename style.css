@@ -7,13 +7,15 @@ html {
 div{
     width: 200px;
     height: 200px;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 1.0620rem;
     background-color: hotpink;
     color: blueviolet;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgb(137, 6, 137);
 }
   
