@@ -56,4 +56,23 @@
 
   body {
     font-family: 'Madimi-One', 'Noto-Sans';
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  h1, h2{
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 1.6em;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+  }
+
+  section > h1 + p,
+  section > h2 + p {
+    text-indent: 20px;
   }
