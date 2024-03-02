@@ -1,0 +1,59 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  @font-face{
+    font-family: 'Madimi_One';
+    src: url('C:\Users\olisa\OneDrive\Documents\GitHub\Afoma-tech.github.io\assign3\Typesetting a page\MadimiOne-Regular.ttf') format('woff2');
+  }
+
+  @font-face{
+    font-family: 'Noto_Sans';
+    src: url('C:\Users\olisa\OneDrive\Documents\GitHub\Afoma-tech.github.io\assign3\Typesetting a page\NotoSans_Condensed-Light.ttf') format('woff2')
+  }
+
+  body {
+    font-family: 'Madimi-One', 'Noto-Sans';
+  }
