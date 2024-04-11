@@ -1,3 +1,8 @@
+// Name: Afoma Egwuatu 
+// Date: 2nd April, 2024
+// Description: The Javascript code to make the silly story generator dynamic
+
+
 // Complete variable and function definition
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
