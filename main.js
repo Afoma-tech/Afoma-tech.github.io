@@ -1,4 +1,6 @@
-
+// Name: Afoma Egwuatu
+// Date: 11th April, 2024
+// Description: Ensuring Accessibility on a webpage - making it dynamic
 
 // functionality for showing/hiding the comments section
 
