@@ -19,7 +19,7 @@ const altText = {
 /* Looping through images */
 imageFilenames.forEach(filename => {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', `images/${filename}`);
+    newImage.setAttribute('src', `images/${filename}`); // Use backticks instead of single quotes
     newImage.setAttribute('alt', altText[filename]);
     thumbBar.appendChild(newImage);
 
